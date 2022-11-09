@@ -1,0 +1,52 @@
+body{
+ text-align:center;
+ background:linear-gradient(pink 0%, orange 25%, blue 75%);
+color:white;
+}
+#para{
+padding-left:100px;
+padding-right:100px;
+}
+.link{
+list-style:none;
+background-color:blue !important;
+margin:0px;
+width:100%;
+position:fixed;
+z-index:999;
+cursor:pointer;
+
+
+}
+.content{
+display:inline;
+padding-left:30px;
+padding-right:30px;
+}
+#home{
+z-index:9;
+padding-top:50px;
+}
+
+.link a{
+color:white !important;
+}
+
+.content:hover{
+font-size:25px;
+text-decoration:underline;
+}
+
+#google iframe{
+width: 100%;
+}
+
+#contact{
+    background-color:white;
+    color:black !important;
+}
+
+#contact h3{
+    display:inline;
+
+}
